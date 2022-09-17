@@ -24,7 +24,7 @@ Instructions:
 
 ![Imgur2](https://i.imgur.com/YXZphpC.png)
 
-* Select the codes in the procedure column and execute the macro: "DOWNLOAD_PHOTOS_SELECTION"
+* Select the codes in the procedure column and execute the macro: "DOWNLOAD_PHOTOS_SELECTION" (before running, make sure the file is saved)
 
 ![Imgur3](https://i.imgur.com/060vIHr.gif)
 
