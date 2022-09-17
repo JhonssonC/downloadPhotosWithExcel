@@ -1,36 +1,36 @@
 # downloadPhotosWithExcel
-Basic code to download photos from a web/portal with Excel using a referential link, the photo must be on the web (own sequential style).
+Código básico para descargar fotos de una web/portal con Excel mediante enlace referencial, la foto debe estar en la web (estilo secuencial propio).
 
-Execution Test:
+Ejecución:
 
 ![Imgur](https://i.imgur.com/060vIHr.gif)
 
-* Prerequisites (only for windows 7 - 10):
+* Prerequisitos (solo para windows 7 - 10):
 
 Office 2012-2019 (32/64 bit)
 
 
-Instructions:
+Instrucciones:
 
-* Open or create a macro-enabled Excel file.
-* Create table of contents as shown below.
+* Abrir o crear un Archhivo Excel Habilitado para macros.
+* Crear tabla de contenido como se muestra a continuación:
 
 ![Imgur1](https://i.imgur.com/gvOJ8Ov.png)
 
 
-* Import the code as a module to the Excel file (.xlsm).
+* Importe el codigo como modulo al archivo Excel (.xlsm).
 
-* In the code references add the following marked:
+* En las referencias de codigo agragar las siguientes marcadas:
 
 ![Imgur2](https://i.imgur.com/YXZphpC.png)
 
-* Select the codes in the procedure column and execute the macro: "DOWNLOAD_PHOTOS_SELECTION"
+* Seleccione los codigos en la columna trámite y ejecute la macro: "DOWNLOAD_PHOTOS_SELECTION" (antes de ejecutar, asegurese de que el archivo este guardado).
 
 ![Imgur3](https://i.imgur.com/060vIHr.gif)
 
-Important note: When the macro is executed, it creates a predefined folder tree as follows:
-  - In the current location of the file create the folder "DOWNLOAD"
-  - Next, within this, create another folder with the name of the spreadsheet where the selection for downloading photos was made.
-  - Finally, in this folder, individually create folders with photos from the "Process" column of the previously created table.
-  - The images are created with the name of the header where they are found in the table and are assigned to the folder that was created with the process number/code.
-
+Nota importante: La macro al ser ejecutada crea un arbol de carpetas predefinido de la siguiente manera:
+ - En la ubicación actual del archivo crea la carpeta "DOWNLOAD"
+ - A continuacion dentro de esta crea otra carpeta con el nombre de la hoja de calculo donde se realizó la seleccion para la descarga de fotos.
+ - Finalmente en esta carpeta crea individualmente carpetas con fotos de la columna "Tramite" de la tabla previamente creada.
+ - Las imagenes se crean con el nombre del encabezado donde son encontradas en la tabla y se asignan a la carpeta que se creó con el numero de tramite/código.
+ 
