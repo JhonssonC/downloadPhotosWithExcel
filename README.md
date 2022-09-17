@@ -24,7 +24,7 @@ Instrucciones:
 
 ![Imgur2](https://i.imgur.com/YXZphpC.png)
 
-* Seleccione los codigos en la columna trámite y ejecute la macro: "DOWNLOAD_PHOTOS_SELECTION" (antes de ejecutar, asegurese de que el archivo este guardado).
+* Seleccione los codigos en la columna trámite y ejecute la macro: "DOWNLOAD_PHOTOS_SELECTION" (antes de ejecutar, asegurese de que el archivo esté guardado).
 
 ![Imgur3](https://i.imgur.com/060vIHr.gif)
 
